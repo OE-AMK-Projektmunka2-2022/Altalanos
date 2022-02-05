@@ -53,11 +53,11 @@ A repositoryban külön könyvtárban kell elhelyezni a projekt forráskódját 
 kapcsolódó egyéb fájlokat), a dokumentációt, illetve az egyéb állományokat.
 Néhány példa:
 
- ** **src**: A projekthez tartozó forráskódok
- ** **firmware**: Az esetleges mikrovezérlős forráskódok
- ** **docs**: Dokumentációk
- ** **schematics**: Kapcsolási rajzok
- ** **screenshots**: Képernyőképek
+ * **src**: A projekthez tartozó forráskódok
+ * **firmware**: Az esetleges mikrovezérlős forráskódok
+ * **docs**: Dokumentációk
+ * **schematics**: Kapcsolási rajzok
+ * **screenshots**: Képernyőképek
 
 **A kurzus során elvárás a tiszta könyvtárszerkezet használata.**
 
