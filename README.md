@@ -84,10 +84,92 @@ de vannak általános, sokféle irányba elvihető ötletek is.
 
 ## Rubik kocka kirakását segítő program
 
-## Imagine társasjáték online megvalósítása
+A projekt célja egy olyan program létrehozása, ami egy összekevert Rubik kockáról
+webkamera segítségével különböző szögekből felvételeket készít, felismeri az
+egyes elemek helyzetét, majd egy lehetséges kirakást generál.
 
-## Travelin' társasjáték online megvalósítása
+Az egyes megvalósítandó elemek a következők:
+
+ * Webkamera kezelésének megoldása, képek automatizált készítése
+ * Kockaelemek színének azonosítása
+ * Kockaállapotok és forgatások modellezése
+ * Forgatási sorrend generálása
+
+A megvalósításhoz Python és OpenCV használata ajánlott.
+
+## Kártyák kombinálásán, mozgatásán alapuló társasjáték online megvalósítása
+
+Az Imagine egy olyan tásasjáték, ahol valamilyen feladványt (például
+egy szót, kifejezést, közmondást, film, vagy zenecímet) kell kártyák
+segítségével elmagyarázni. Az átlátszó kártyákon valamilyen (sok esetben többértelmű,
+vagy absztrakt) ábra van, amiket egymásra tehetünk, vagy akár mozgathatunk
+(animálhatunk) is.
+
+A projekt célja, hogy egy, az Imagine-hez hasonló játékot hozzunk
+létre, amit online játszhatunk. Az eredeti játékhoz sem a feladványok,
+sem a konkrét kártyák tekintetében nem feltétlenül ragaszkodni.
+
+Az egyes megvalósítandó elemek a következők:
+
+ * Kártyák és feladványok megszerkesztése
+ * Kártyák kiválasztása és felrakása a játéktérre
+ * Kártyák levétele a játéktárről
+ * Kártyák mozgatása
+ * Rámutatás, letakarás lehetőségének megoldása
+ * Játéktér megjelenítése egyetlen számítógépen
+ * Játéktér folyamatos szinkronizációja az egyes számítógépek között
+(felhő szolgáltatáson, web backenden, centralizált szerveren keresztül stb.)
+ * Az egyes játékosok összekapcsolásának megoldása, authentikáció
+
+Az eredeti játékban lehetőség van a kártyák három dimenzióban való mozgatására is.
+Ettől ebben az esetben el kell tekintenünk. Nincs szükség továbbá a játék közben
+a hang átvitelének megoldására sem (erre már számos egyéb megoldás rendelkezésre
+áll).
+
+A játék akár webalkalmazásként, akár desktop programként elképzelhető.
+
+## Kártya alapú társasjáték online megvalósítása
+
+Számos olyan társasjáték létezik, amit nagyrészt, vagy teljes egészében kártyákkal
+kell játszani. Míg a hagyományos kártyajátékokra (például poker, snapszer, ulti)
+számos online megoldás létezik, az újabb típusú kártyajátékok közül ez csak
+néhányról mondható el (például az Exploding Kittens-nek és az EladLak!-nak van
+online változata, viszont a Travelin'-nek nincs).
+
+Általában ezek a játékok a következő főbb játékelemekből építkeznek:
+
+ * A játékosoknál levő lapok, amelyekből egy adott mennyiségű a játék elején
+kerül kiosztásra
+ * Húzópakli, amiből bizonyos alkalmakkor (például a játékos körének elején,
+vagy bizonyos kártyák aktiválásakor) megadott mennyiségű lapot fel kell húzni
+ * Dobópakli, ahova a felhasznált lapok kerülnek és azonnan bizonyos játékok
+esetén szintén húzhatunk
+ * Kijátszott kártyák (általában pontértékkel), amiket minden játékos maga előtt gyűjt
+ * Kezdőjátékos kiválasztásának szabálya
+ * A kör iránya (bizonyos játékoknál ez megfordítható)
+ * Kártyatípusok (például akciókártyák, támadó és támadást kivédő kártyák, körön kívül
+is felhasználhatunk
+ * "Játék vége" feltétel
+ * Nyertes kiválasztására vonatkozó szabály
+
+Az egyes megvalósítandó elemek a következők:
+
+ * Játék kiválasztása, vagy kigondolása
+ * Kártyalapok elkészítése
+ * Kártyák követése (melyik kártya hol van, húzópakli és dobópakli sorrendje, adatszerkezetek megtervezése
+ * Játéktér kinézetének megtervezése (kezünkben levő lapok, kijátszott lapok stb.)
+ * Aktuálisan következő játékos követése
+ * Játékos körében elvégzendő feladatok végigkövetése, választási lehetőségek felajánlása
+ * Felhasználói interakciók kidolgozása (hogyan tudunk kijátszani egy kártyát, hogyan tudunk akciókat összekombinálni, esetleg passzolni, támadás esetén támadott játékost kiválasztani stb.)
+ * Akciók validálása (például ne tudjunk több lapot felhúzni, mint amennyit szabad,
+ne tudjunk már kijátszott lapot újra kijátszani stb.)
+ * "Játék vége" feltétel figyelése, győztes kiválasztása
+ * Játéktér megjelenítése egyetlen számítógépen
+ * Játéktér szinkronizációja az egyes számítógépek között
+(felhő szolgáltatáson, web backenden, centralizált szerveren keresztül stb.)
+ * Az egyes játékosok összekapcsolásának megoldása, authentikáció
+
+A játék akár webalkalmazásként, akár desktop programként elképzelhető.
 
 ## Tangram társasjáték online megvalósítása
-
 
