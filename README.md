@@ -173,3 +173,4 @@ A játék akár webalkalmazásként, akár desktop programként elképzelhető.
 
 ## Tangram társasjáték online megvalósítása
 
+![Ezt rakd ki játék](images/eztrakdki1.jpg)
