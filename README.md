@@ -200,3 +200,9 @@ Az egyes megvalósítandó elemek a következők:
 A játék akár webalkalmazásként, akár desktop programként, vagy mobil
 allként elképzelhető.
 
+## Játék Arduinoval és OLED kijelzővel
+
+## Beszélő óra, beszélő konyhai időzítő
+
+## Beszélő ellenállásmérő
+
