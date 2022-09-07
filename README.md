@@ -3,7 +3,7 @@
 ## Csapatok összeállítása
 
 A félév elején a kurzus hallgatóiból 2-3 fős csapatokat állítunk össze. Ennek megszervezése alapvetően a hallgatók feladata. Ezt
-[Ennek a táblázatnak](https://docs.google.com/spreadsheets/d/1p0TsBbAVa2YAOYLpg4l1MPVzsMZLEM9Fl2YJtVPmkk4/edit#gid=0)
+[Ennek a táblázatnak](https://docs.google.com/spreadsheets/d/1IrYP29BsdDP29CFXExsv_rgTbKuD0-In80B1lQNJsZ4/edit#gid=0)
 a segítségével lehet megtenni. Értelemszerűen a "csapat sorszáma" oszlopba kell beírni
 a csapat sorszámát. A táblázatot később letisztázom és a kimaradó emberekből (ha
 lesznek) véletlenszerűen állítok össze csapatokat.
@@ -12,11 +12,11 @@ lesznek) véletlenszerűen állítok össze csapatokat.
 
 A csapatoknak a készülő kódot és a dokumentációt egy GitHub repositoryban kell
 verziókövetve tárolniuk. Ehhez mindenkinek regisztrálnia kell a GitHubra és
-a felhasználónevét be kell írnia a feljebb már említett [táblázatba](https://docs.google.com/spreadsheets/d/1p0TsBbAVa2YAOYLpg4l1MPVzsMZLEM9Fl2YJtVPmkk4/edit#gid=0).
+a felhasználónevét be kell írnia a feljebb már említett [táblázatba](https://docs.google.com/spreadsheets/d/1IrYP29BsdDP29CFXExsv_rgTbKuD0-In80B1lQNJsZ4/edit#gid=0).
 
 Minden csapatnak létre fogok hozni egy repositoryt, aminek a linkje
 például a következő lehet:
-[https://github.com/OE-AMK-Projektmunka1-2022/PL2021B_20](https://github.com/OE-AMK-Projektmunka1-2022/PL2021B_20)
+[https://github.com/OE-AMK-Projektmunka2-2022/PL2022B_20](https://github.com/OE-AMK-Projektmunka2-2022/PL2022B_20)
 
 A GitHub használatát egy másik dokumentum tartalmazza.
 
